@@ -98,3 +98,33 @@ console.error: PushService:
 
 JavaScript error: resource://services-common/kinto-offline-client.js, line 579: Error: IndexedDB getLastModified() The operation failed for reasons unrelated to the database itself and not covered by any other error code.
 1564836614146	Marionette	INFO	Stopped listening on port 43583
+1564840563632	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fysERtEE5m6x"
+1564840566450	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564840566700	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564840566702	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564840566727	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564840572770	Marionette	INFO	Listening on port 40635
+1564840572864	Marionette	WARN	TLS certificate errors will be ignored for this session
+1564840731022	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.akBEt1RkcbWw"
+1564840731876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564840731876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564840731876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564840731876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564840735987	Marionette	INFO	Listening on port 44867
+1564840736041	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 20009, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1564840738996	Marionette	INFO	Stopped listening on port 40635
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564790410142%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://127.0.0.1:8000"
+console.warn: nsLoginManager: "searchLogins: `formSubmitURL` or `httpRealm` is recommended"
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+[Parent 20923, Gecko_IOThread] WARNING: pipe error (90): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 20923, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-tGfEvD/firefox-68.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1564847472704	Marionette	INFO	Stopped listening on port 44867
